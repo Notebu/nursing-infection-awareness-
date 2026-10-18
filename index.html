@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#174a75">
+<meta name="description" content="موقع توعوي تفاعلي من نادي التمريض حول الأسبوع العالمي لمكافحة العدوى.">
+<title>الأسبوع العالمي لمكافحة العدوى | نادي التمريض</title>
+<style>
+:root{--navy:#173f70;--blue:#2677a8;--teal:#3b8c7c;--mint:#e8f4ef;--ice:#eff6fa;--ink:#203447;--muted:#637789;--white:#fff;--line:#dce8ed;--gold:#e4b85e;--shadow:0 12px 35px rgba(24,64,98,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7fafb;color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.8}button{font:inherit;cursor:pointer}a{color:inherit}.topbar{background:var(--navy);color:white;padding:8px 5vw;font-size:.9rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.topbar span{opacity:.94}.wrap{width:min(1120px,92%);margin:auto}.brandrow{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:16px 0}.logos{display:flex;align-items:center;gap:12px}.logos img{width:135px;height:72px;object-fit:contain;background:white;border-radius:10px}.logos img.club{width:120px}.brandtext{font-size:.88rem;color:var(--muted)}.hero{background:linear-gradient(120deg,#153e70 0%,#226f99 62%,#388d7d 100%);color:white;position:relative;overflow:hidden;border-radius:26px;padding:clamp(28px,5vw,62px);margin:10px auto 30px;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;width:310px;height:310px;border:1px solid #ffffff33;border-radius:50%;left:-90px;top:-120px;box-shadow:0 0 0 35px #ffffff0a,0 0 0 75px #ffffff08}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #ffffff55;background:#ffffff12;padding:5px 13px;border-radius:30px;font-size:.9rem}.hero h1{font-size:clamp(2rem,5vw,3.7rem);line-height:1.35;margin:18px 0 12px;max-width:760px}.hero p{font-size:1.08rem;max-width:680px;color:#edf6fa;margin:0 0 25px}.btn{border:0;border-radius:12px;padding:11px 19px;font-weight:bold;transition:.2s;display:inline-flex;align-items:center;justify-content:center;gap:8px}.btn:hover{transform:translateY(-2px)}.btn-light{background:white;color:var(--navy)}.btn-outline{border:1px solid #ffffff99;background:transparent;color:white}.section{padding:18px 0 35px}.section-head{text-align:center;margin:0 auto 22px;max-width:700px}.section-head h2{font-size:clamp(1.5rem,3vw,2.2rem);color:var(--navy);margin:0 0 6px}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.topic{border:1px solid var(--line);background:white;border-radius:19px;padding:22px 17px;text-align:right;box-shadow:0 4px 18px #1c4a6810;min-height:210px;display:flex;flex-direction:column;align-items:flex-start;transition:.2s;color:var(--ink)}.topic:hover,.topic:focus-visible{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#91c4c0;outline:none}.topic .ico{width:56px;height:56px;border-radius:16px;background:var(--ice);display:grid;place-items:center;font-size:1.8rem;margin-bottom:13px}.topic:nth-child(2) .ico,.topic:nth-child(4) .ico{background:var(--mint)}.topic strong{font-size:1.05rem;color:var(--navy);margin-bottom:5px}.topic small{color:var(--muted);font-size:.88rem}.topic .more{margin-top:auto;padding-top:12px;color:var(--teal);font-weight:bold;font-size:.88rem}.detail{display:none;margin-top:22px;background:white;border:1px solid var(--line);border-radius:22px;padding:clamp(20px,4vw,36px);box-shadow:var(--shadow);animation:appear .25s ease}.detail.active{display:block}.detail-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;border-bottom:1px solid var(--line);padding-bottom:15px;margin-bottom:18px}.detail h3{font-size:1.5rem;color:var(--navy);margin:0}.detail p{margin-top:0}.close{border:1px solid var(--line);background:#f7fafb;border-radius:10px;padding:5px 12px;color:var(--navy)}.info-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.info{background:#f5f9fb;border-radius:14px;padding:17px}.info h4{color:var(--teal);margin:0 0 6px}.info p,.info ul{margin:0}.info ul{padding-right:20px}.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.step{background:var(--ice);border-radius:14px;padding:15px;text-align:center}.step b{display:grid;place-items:center;margin:0 auto 9px;width:35px;height:35px;border-radius:50%;background:var(--blue);color:white}.step span{display:block;font-size:1.7rem}.note{border-right:4px solid var(--gold);background:#fff8e8;padding:13px 16px;border-radius:8px;margin-top:16px}.quizbox{background:linear-gradient(135deg,#eaf4f8,#edf7f2);border-radius:24px;padding:clamp(22px,4vw,38px);border:1px solid #d5e8e8}.quiztop{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.progress{height:8px;background:#d7e4e8;border-radius:20px;overflow:hidden;margin:16px 0 24px}.progress span{display:block;height:100%;width:0;background:var(--teal);transition:width .3s}.question{font-size:1.25rem;font-weight:bold;color:var(--navy);margin:0 0 15px}.answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.answer{background:white;border:1px solid #d5e2e8;border-radius:12px;text-align:right;padding:13px 15px;color:var(--ink)}.answer:hover{border-color:var(--teal)}.answer.correct{border-color:#2d8a66;background:#e8f7ef}.answer.wrong{border-color:#c65d5d;background:#fff0ef}.answer:disabled{cursor:default}.quizfeedback{min-height:32px;font-weight:bold;margin:12px 0;color:var(--teal)}.quiz-actions{display:flex;gap:10px;flex-wrap:wrap}.btn-primary{background:var(--navy);color:white}.btn-soft{background:#dcece8;color:#225f58}.result{display:none;text-align:center;background:white;border-radius:18px;padding:25px;margin-top:16px}.result.show{display:block}.result .score{font-size:2.6rem;color:var(--teal);font-weight:bold}.footer{background:#153b65;color:#eef5f8;margin-top:28px;padding:28px 0}.footerrow{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer img{height:54px;width:105px;object-fit:contain;background:white;border-radius:8px}.footer small{color:#d2e2eb}.backtop{position:fixed;bottom:18px;left:18px;z-index:5;display:none;border:0;background:var(--navy);color:white;width:45px;height:45px;border-radius:50%;box-shadow:var(--shadow)}.backtop.show{display:block}.source-note{font-size:.84rem;color:var(--muted);margin-top:14px}.pill{display:inline-block;background:#e0efeb;color:#27685e;border-radius:30px;padding:3px 10px;font-size:.83rem;font-weight:bold}
+@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:850px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.logos img{width:105px;height:60px}.logos img.club{width:100px}.brandtext{display:none}}
+@media(max-width:540px){.topbar{justify-content:center;text-align:center}.brandrow{align-items:center}.logos{gap:7px}.logos img{width:88px;height:48px}.logos img.club{width:82px}.hero{border-radius:19px;margin-top:4px}.hero h1{font-size:2rem}.hero p{font-size:1rem}.cards{gap:10px}.topic{padding:16px 13px;min-height:195px}.topic .ico{width:48px;height:48px;font-size:1.55rem}.topic strong{font-size:.97rem}.info-grid,.steps,.answers{grid-template-columns:1fr}.detail-head{gap:8px}.detail h3{font-size:1.25rem}.section{padding-bottom:25px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="topbar"><span>جامعة الباحة · كلية التمريض</span><span>التوعية تبدأ بخطوة، والوقاية مسؤولية الجميع</span></div>
+<header class="wrap">
+  <div class="brandrow">
+    <div class="logos" aria-label="شعارات الكلية والنادي">
+      <img src="assets/faculty-nursing-logo.jpeg" alt="شعار كلية التمريض بجامعة الباحة">
+      <img class="club" src="assets/nursing-club-logo.jpeg" alt="شعار نادي التمريض">
+    </div>
+    <div class="brandtext">مبادرة توعوية تفاعلية<br><strong>نادي التمريض</strong></div>
+  </div>
+</header>
+<main class="wrap" id="home">
+<section class="hero">
+  <span class="eyebrow">🩺 صحة آمنة · رعاية واعية</span>
+  <h1>الأسبوع العالمي لمكافحة العدوى</h1>
+  <p>خطوات بسيطة تصنع فرقًا كبيرًا. اكتشفي أساسيات الوقاية من العدوى، وتعرّفي على الممارسات التي تحمي المرضى والممارسين الصحيين.</p>
+  <button class="btn btn-light" onclick="document.getElementById('topics').scrollIntoView({behavior:'smooth'})">ابدئي الجولة <span aria-hidden="true">←</span></button>
+  <button class="btn btn-outline" onclick="document.getElementById('quiz').scrollIntoView({behavior:'smooth'})">اختبري معلوماتك</button>
+</section>
+<section class="section" id="topics">
+  <div class="section-head"><span class="pill">تعلّمي بالضغط</span><h2>محطات الوقاية من العدوى</h2><p>اختاري إحدى البطاقات لعرض المعلومات والإرشادات.</p></div>
+  <div class="cards">
+    <button class="topic" data-topic="why" aria-controls="detail" aria-expanded="false"><span class="ico">🛡️</span><strong>أهمية الوقاية من العدوى</strong><small>كيف نحمي المرضى والفريق الصحي؟</small><span class="more">عرض المعلومات ←</span></button>
+    <button class="topic" data-topic="hands" aria-controls="detail" aria-expanded="false"><span class="ico">🧼</span><strong>غسل اليدين بالطريقة الصحيحة</strong><small>خطوات عملية في الوقت المناسب.</small><span class="more">عرض الخطوات ←</span></button>
+    <button class="topic" data-topic="cough" aria-controls="detail" aria-expanded="false"><span class="ico">🤧</span><strong>آداب السعال والعطاس</strong><small>قلّلي انتشار الرذاذ والجراثيم.</small><span class="more">تعرّفي على الآداب ←</span></button>
+    <button class="topic" data-topic="vaccines" aria-controls="detail" aria-expanded="false"><span class="ico">💉</span><strong>التطعيمات للممارسين الصحيين</strong><small>تطعيمات موصى بها بحسب الإرشادات.</small><span class="more">عرض الإرشادات ←</span></button>
+  </div>
+  <article class="detail" id="detail" aria-live="polite" tabindex="-1">
+    <div class="detail-head"><h3 id="detail-title">المعلومات</h3><button class="close" id="close-detail" type="button">إغلاق ✕</button></div>
+    <div id="detail-content"></div>
+  </article>
+</section>
+<section class="section" id="quiz">
+  <div class="section-head"><h2>اختبار سريع</h2><p>أجيبي عن الأسئلة لتراجعي معلوماتك بطريقة تفاعلية.</p></div>
+  <div class="quizbox">
+    <div class="quiztop"><strong id="quiz-counter">السؤال 1 من 5</strong><span class="pill" id="quiz-points">النقاط: 0</span></div>
+    <div class="progress" aria-label="تقدم الاختبار"><span id="progress-bar"></span></div>
+    <div id="quiz-play">
+      <p class="question" id="question-text"></p>
+      <div class="answers" id="answers"></div>
+      <p class="quizfeedback" id="feedback" aria-live="polite"></p>
+      <div class="quiz-actions"><button class="btn btn-primary" id="next-question" disabled>السؤال التالي ←</button><button class="btn btn-soft" id="restart-quiz">إعادة الاختبار</button></div>
+    </div>
+    <div class="result" id="quiz-result" aria-live="polite"><div class="score" id="final-score"></div><h3 id="result-title"></h3><p id="result-message"></p><button class="btn btn-primary" id="try-again">إعادة الاختبار</button></div>
+  </div>
+  <p class="source-note">ملاحظة: المحتوى توعوي عام ولا يغني عن سياسات مكافحة العدوى المعتمدة في المنشأة الصحية أو استشارة فريق الصحة المهنية.</p>
+</section>
+</main>
+<footer class="footer"><div class="wrap footerrow"><div><strong>نادي التمريض · كلية التمريض · جامعة الباحة</strong><br><small>معًا نحو بيئة صحية أكثر أمانًا.</small></div><img src="assets/nursing-club-logo.jpeg" alt="شعار نادي التمريض"></div></footer>
+<button class="backtop" id="backtop" aria-label="العودة إلى أعلى الصفحة" title="العودة إلى الأعلى">↑</button>
+<script>
+const topics = {
+why: {title:"أهمية الوقاية من العدوى",intro:"تساعد ممارسات الوقاية ومكافحة العدوى على تقليل انتقال الكائنات الممرضة داخل مرافق الرعاية الصحية والمجتمع.",blocks:[
+{h:"لماذا هي مهمة؟",items:["حماية المرضى، خصوصًا الأكثر عرضة للمضاعفات.","حماية الممارسين الصحيين والزوار.","تقليل العدوى المرتبطة بالرعاية الصحية ومضاعفاتها.","دعم سلامة الرعاية وتقليل الحاجة إلى علاجات إضافية."]},
+{h:"ممارسات يومية أساسية",items:["نظافة اليدين في الأوقات المناسبة.","استخدام معدات الوقاية الشخصية وفق تقييم الخطر.","التعامل الآمن مع الأدوات الحادة والنفايات الطبية.","تنظيف وتطهير البيئة والأدوات حسب السياسة المعتمدة."]}]},
+hands:{title:"غسل اليدين بالطريقة الصحيحة",intro:"الماء والصابون مهمان عندما تكون اليدان متسختين بوضوح. افركي جميع أجزاء اليدين لمدة لا تقل عن 20 ثانية، واتّبعي بروتوكول المنشأة.",blocks:[
+{h:"الخطوات",items:["بلّلي اليدين بالماء وضعي الصابون.","افركي راحتي اليدين وظهرهما وبين الأصابع.","نظّفي الإبهامين وأطراف الأصابع وتحت الأظافر.","اشطفي جيدًا وجففي بمنشفة نظيفة أو أحادية الاستخدام."]},
+{h:"متى أنظّف يديّ؟",items:["قبل لمس المريض وقبل إجراء نظيف أو معقم.","بعد احتمال التعرض لسوائل الجسم وبعد لمس المريض.","بعد لمس محيط المريض، وعند الانتقال من موضع ملوث إلى موضع نظيف.","بعد استخدام دورة المياه وقبل إعداد الطعام."]}],note:"في معظم مواقف الرعاية الصحية، يُفضّل المطهّر الكحولي لليدين إذا لم تكن اليدان متسختين بوضوح، وفق سياسة المنشأة. اتبعي تعليمات المنتج."},
+cough:{title:"آداب السعال والعطاس",intro:"آداب السعال والعطاس تقلل انتشار الرذاذ التنفسي وتحمي من حولك.",blocks:[
+{h:"افعلي ذلك",items:["غطّي الأنف والفم بمنديل عند السعال أو العطاس.","تخلّصي من المنديل مباشرة في سلة مناسبة.","إذا لم يتوفر منديل، اسعلي أو اعطسي في باطن المرفق لا في اليدين.","نظّفي يديك بعد ذلك، خاصةً إذا لامست إفرازات تنفسية.","استخدمي كمامة عند الحاجة وفق الإرشادات المحلية، وابتعدي عن الآخرين إذا كنت مريضة."]},
+{h:"تذكّري",items:["لا تسعلي في كفّيك؛ فقد تنقلين الجراثيم إلى الأسطح.","حافظي على تهوية جيدة عند الإمكان.","اتبعي سياسة المنشأة عند التعامل مع أعراض تنفسية."]}]},
+vaccines:{title:"التطعيمات الموصى بها للممارسين الصحيين",intro:"تختلف التوصيات حسب الدولة، والوظيفة، والتاريخ التطعيمي، والمخاطر المهنية. ينبغي مراجعة الصحة المهنية والجدول الوطني المعتمد.",blocks:[
+{h:"تطعيمات قد تُوصى بها",items:["التهاب الكبد B: مهم للعاملين المعرضين للدم أو سوائل الجسم، مع توثيق الاستجابة المناعية حسب الإرشادات.","الإنفلونزا الموسمية: تُوصى عادةً للعاملين في الرعاية الصحية سنويًا.","الحصبة والنكاف والحصبة الألمانية (MMR): التحقق من المناعة أو اكتمال التطعيم وفق المتطلبات.","الجديري المائي: التحقق من المناعة أو التطعيم لمن لا توجد لديهم مناعة.","الكزاز والدفتيريا والسعال الديكي (Tdap/Td): وفق الجدول الوطني والتوصيات المهنية."]},
+{h:"قبل أخذ التطعيم",items:["راجعي سجل التطعيمات والمناعة مع الصحة المهنية.","أخبري المختص عن الحساسية الشديدة أو الحالات الصحية والأدوية المهمة.","التزمي بالجدول الوطني وسياسة جهة العمل؛ لا تعتمدي على هذه القائمة وحدها."]}],note:"هذه قائمة توعوية عامة وليست جدولًا شخصيًا للتطعيم. المرجع النهائي هو وزارة الصحة والجهة الصحية المهنية في بلدك."}
+};
+const detail=document.getElementById("detail"), detailTitle=document.getElementById("detail-title"), detailContent=document.getElementById("detail-content");
+function openTopic(key,button){const t=topics[key];if(!t)return;detailTitle.textContent=t.title;detailContent.replaceChildren();const p=document.createElement("p");p.textContent=t.intro;detailContent.appendChild(p);const grid=document.createElement("div");grid.className="info-grid";t.blocks.forEach(b=>{const box=document.createElement("section");box.className="info";const h=document.createElement("h4");h.textContent=b.h;box.appendChild(h);const ul=document.createElement("ul");b.items.forEach(item=>{const li=document.createElement("li");li.textContent=item;ul.appendChild(li)});box.appendChild(ul);grid.appendChild(box)});detailContent.appendChild(grid);if(key==="hands"){const label=document.createElement("h4");label.textContent="تذكير سريع";label.style.color="var(--navy)";detailContent.appendChild(label);const steps=document.createElement("div");steps.className="steps";[["1","بلّلي وضعي الصابون","💧"],["2","افركي كل الأسطح 20 ثانية على الأقل","🫧"],["3","اشطفي وجففي","🧻"]].forEach(s=>{const el=document.createElement("div");el.className="step";el.innerHTML="<b>"+s[0]+"</b><span>"+s[2]+"</span>";const tx=document.createElement("div");tx.textContent=s[1];el.appendChild(tx);steps.appendChild(el)});detailContent.appendChild(steps)}if(t.note){const n=document.createElement("div");n.className="note";n.textContent=t.note;detailContent.appendChild(n)}detail.classList.add("active");document.querySelectorAll(".topic").forEach(x=>x.setAttribute("aria-expanded",String(x===button)));detail.scrollIntoView({behavior:"smooth",block:"start"});detail.focus({preventScroll:true})}
+document.querySelectorAll(".topic").forEach(b=>b.addEventListener("click",()=>openTopic(b.dataset.topic,b)));
+document.getElementById("close-detail").addEventListener("click",()=>{detail.classList.remove("active");document.querySelectorAll(".topic").forEach(x=>x.setAttribute("aria-expanded","false"))});
+const questions=[
+{q:"متى تكون نظافة اليدين ضرورية في الرعاية الصحية؟",a:["قبل لمس المريض وبعده وفق الأوقات الموصى بها","فقط في بداية الدوام","فقط عندما تبدو اليدان متسختين"],c:0,why:"نظافة اليدين مطلوبة في عدة لحظات من الرعاية، وليس فقط عند ظهور الأوساخ."},
+{q:"إذا عطستِ ولم يتوفر منديل، فما التصرف الأفضل؟",a:["تغطية الفم باليد ثم لمس الأسطح","العطاس في باطن المرفق","عدم تغطية الأنف والفم"],c:1,why:"باطن المرفق يساعد على منع تلويث اليدين وانتقال الرذاذ."},
+{q:"كم المدة التي يُنصح بها لفرك اليدين بالماء والصابون؟",a:["5 ثوانٍ","10 ثوانٍ","20 ثانية على الأقل"],c:2,why:"افركي جميع أجزاء اليدين لمدة لا تقل عن 20 ثانية."},
+{q:"من يحدد التطعيمات المناسبة للممارس الصحي؟",a:["التوصيات الوطنية والصحة المهنية بناءً على المخاطر والسجل التطعيمي","اختيار الزميل فقط","قائمة واحدة لا تختلف في كل البلدان"],c:0,why:"تختلف التوصيات باختلاف البلد والمخاطر المهنية والحالة التطعيمية."},
+{q:"ما الهدف من معدات الوقاية الشخصية؟",a:["استبدال نظافة اليدين تمامًا","تقليل التعرض للمخاطر عند اختيارها واستخدامها بشكل صحيح","استخدام النوع نفسه في كل الحالات"],c:1,why:"تُختار معدات الوقاية بحسب تقييم الخطر، ولا تُغني عن بقية إجراءات الوقاية."}
+];
+let qi=0,score=0,answered=false;
+const qtext=document.getElementById("question-text"), answers=document.getElementById("answers"), feedback=document.getElementById("feedback"), next=document.getElementById("next-question");
+function renderQuestion(){answered=false;const q=questions[qi];document.getElementById("quiz-play").style.display="block";document.getElementById("quiz-result").classList.remove("show");document.getElementById("quiz-counter").textContent=`السؤال ${qi+1} من ${questions.length}`;document.getElementById("quiz-points").textContent=`النقاط: ${score}`;document.getElementById("progress-bar").style.width=`${qi/questions.length*100}%`;qtext.textContent=q.q;answers.replaceChildren();feedback.textContent="";next.disabled=true;next.textContent=qi===questions.length-1?"عرض النتيجة":"السؤال التالي ←";q.a.forEach((label,i)=>{const b=document.createElement("button");b.className="answer";b.textContent=label;b.addEventListener("click",()=>chooseAnswer(i,b));answers.appendChild(b)})}
+function chooseAnswer(i,button){if(answered)return;answered=true;const q=questions[qi];const all=[...answers.children];all.forEach((b,j)=>{b.disabled=true;if(j===q.c)b.classList.add("correct")});if(i===q.c){score++;feedback.textContent="إجابة صحيحة! "+q.why}else{button.classList.add("wrong");feedback.textContent="ليست الإجابة الصحيحة. "+q.why}document.getElementById("quiz-points").textContent=`النقاط: ${score}`;next.disabled=false}
+function restartQuiz(){qi=0;score=0;renderQuestion()}
+next.addEventListener("click",()=>{if(!answered)return;if(qi<questions.length-1){qi++;renderQuestion()}else{document.getElementById("quiz-play").style.display="none";document.getElementById("quiz-result").classList.add("show");document.getElementById("progress-bar").style.width="100%";document.getElementById("final-score").textContent=`${score} / ${questions.length}`;document.getElementById("result-title").textContent=score===questions.length?"ممتاز! إجاباتك كلها صحيحة":"أحسنتِ على المشاركة!";document.getElementById("result-message").textContent=score>=4?"لديك أساس جيد في مبادئ الوقاية من العدوى. واصلي مراجعة سياسات المنشأة.":"راجعي المحطات التوعوية ثم أعيدي الاختبار لتعزيز معلوماتك."}});
+document.getElementById("restart-quiz").addEventListener("click",restartQuiz);document.getElementById("try-again").addEventListener("click",()=>{restartQuiz();document.getElementById("quiz").scrollIntoView({behavior:"smooth"})});
+const backtop=document.getElementById("backtop");window.addEventListener("scroll",()=>backtop.classList.toggle("show",window.scrollY>450));backtop.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+renderQuestion();
+</script>
+</body>
+</html>
